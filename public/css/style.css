@@ -1,0 +1,318 @@
+@import url(https://fr.allfont.net/allfont.css?fonts=impact);
+
+.bg {
+    background-image: url(../images/bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+a>img.logoImg {
+    width: 30%;
+}
+
+/* #divTitle{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.titleHomePage {
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.button1 {
+    width: 18%;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    height: 50px;
+    background-image: linear-gradient(to right, #a78f3a 0%, #E1F5C4 41%, #EDE574 100%);
+}
+
+.btnInscription {
+    background-image: linear-gradient(to right, #a78f3a 0%, #E1F5C4 41%, #EDE574 100%);
+    padding: 10px;
+}
+
+.button1,
+.button2,
+.btnInscription {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    font-weight: bold;
+}
+
+.button1:hover,
+.button2:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #212347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btnInscription:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #212347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button2 {
+    width: 18%;
+    position: absolute;
+    top: 70%;
+    left: 51%;
+    height: 50px;
+    background-image: linear-gradient(to right, #a78f3a 0%, #E1F5C4 40%, #EDE574 100%);
+}
+
+.end {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.connexion {
+    background-color: #a78f3a;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+a.connexion {
+    text-decoration: none;
+}
+
+a.connexion:hover {
+    background-color: transparent;
+    border: 2px solid #a78f3a;
+    color: #a78f3a;
+    font-weight: bold;
+}
+
+.form_inscription {
+    position: absolute;
+    /* border-color: 2px solid #E1F5C4; */
+    /* border:2px solid #81adf0; */
+    top: 30%;
+    left: 37%;
+    background-color: rgba(47, 85, 166, 0.5);
+    min-width: 25%;
+    padding: 70px;
+}
+
+.form_inscription input {
+    border: none;
+    border-bottom: 2px solid #d4edff;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact;
+    color: #a78f3a;
+}
+
+h4 {
+    font-family: Impact;
+    color: #d4edff;
+}
+
+.labelName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d4edff;
+}
+
+/* ////////////////startGame//////////////////////////// */
+.blue {
+    background-color: #212347;
+    text-align: center;
+    border: 2px solid rgb(210, 210, 255);
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 5px solid rgb(210, 210, 255);
+    /* margin-right: 60px;
+    margin-left: 60px; */
+    width: 80%;
+    margin: auto;
+}
+
+.blue2 {
+    background-color: #212347;
+    text-align: center;
+    border: 2px solid rgb(210, 210, 255);
+    border: 5px solid #90b4db;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.blue3 {
+    background-color: #212347;
+    border: 2px solid rgb(210, 210, 255);
+    border: 5px solid #90b4db;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logoStartGame {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.namePlayer {
+    text-align: center;
+    background-color: rgb(210, 210, 255);
+    border: 2px solid rgb(136, 53, 136);
+    background-color: #dee0ee;
+    border: 5px solid #763bd2;
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    color: #212347;
+    font-size: 1.3rem;
+    font-weight: bold
+}
+
+.align {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-check .form-check-input {
+    float: none !important;
+    margin-right: 20px;
+}
+
+.score {
+    text-align: center;
+    color: #8b2c8b;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.scoreBlue {
+    text-align: center;
+    color: #90b4db;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#animation_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#animation_container2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    color: #ffffff;
+    background: linear-gradient(to right, #a78f3a 0%, #E1F5C4 41%, #EDE574 100%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 100px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 180px;
+    }
+
+    100% {
+        background-position: 180px;
+    }
+}
+
+.playerCss,
+.scoreCss {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* au-dessous à supprimer si jamais conflit car juste teste de la part de Manon pour pourvoir rentrer une information dans le formulaire */
+.bigMarginTest {
+    margin-top: 50px;
+}
+
+#lyrics {
+    width: 900px;
+    margin: auto;
+    color: #a78f3a;
+}
+
+#answer-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.answer-item {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.btnStartImg {
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+button.centre {
+    margin-left: 100px;
+}
+
+.gif {
+    width: 70%;
+    margin-left: 100px;
+}
